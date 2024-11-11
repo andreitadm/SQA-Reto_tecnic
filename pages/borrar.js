@@ -6,7 +6,7 @@ export class Borrar{
   get elements() {
     return{    
       buttons: {
-        delete: this.page.locator('input[value="Delete"]'),
+        delete: this.page.locator('input[value="Eliminar"]'),
       }
     }
   }

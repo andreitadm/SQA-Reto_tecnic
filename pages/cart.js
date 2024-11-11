@@ -6,7 +6,7 @@ export class Cart{
   get elements() {
     return{    
       buttons: {
-        gotocart: this.page.locator('//a[@href="/cart?ref_=sw_gtc"]'),
+        gotocart: this.page.locator('a', { hasText: "Ir al Carrito" }),
       }
     }
   }
